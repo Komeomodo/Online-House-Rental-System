@@ -1,0 +1,27 @@
+{
+  "Admin": [
+    {
+      "id": 1,
+      "email": "komeomodo@gmail.com",
+      "password": "koko12345"
+    }
+  ],
+  "property": [
+    {
+      "location": "Abuja",
+      "propId": "23345",
+      "propInfo": "Where selling an affordable apartment near bwari",
+      "feature": "Water, steady light, good road",
+      "amount": "N20000",
+      "id": 5
+    },
+    {
+      "location": "Bayelsa",
+      "propId": "Duplex",
+      "propInfo": "Affordable four bedroom apartment",
+      "feature": "Water, steady light, good road",
+      "amount": "N20000",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online House Rental System</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link type="text/css" rel="styleSheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+            	<img src="images/logo.jpg" alt="logo"/>
+            </div>
+            <nav>
+                <ul>
+                    <li class="#"><a href="home.html">Home</a></li>
+                    <li><a href="portal.html">Portal</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                    <li><a href="logout.html">Log out</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section>
+    
+    <div class="container">
+        <div class="whole">
+            <div class="left-items">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal view  -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" style="width: 805px">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Property Details</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body view_top">
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal update  -->
+<div class="modal fade" id="upda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" style="width: 805px">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Property Details</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body update-view">
+              <form>
+                    <div class="input-icon-user">
+                            <input type="text" id="amount" placeholder="Property Amount">
+                        </div>
+                       <div class="input-icon-user">
+                           <input type="text" id="pl"  placeholder="Location">
+                       </div>
+                       <div class="input-icon-user">
+                            <input type="text" id="propertyid"  placeholder="Property ID">
+                        </div>
+                        <div class="input-icon-user">
+                            <span></span>
+                            <input type="text" id="propertyInfo" placeholder="Additional information ">
+                        </div>
+                        <div class="input-icon-user">
+                            <input type="text" id="features"  placeholder="features Amenities">
+                        </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary upd">Update</button>
+              <button type="button" class="btn btn-secondary upd" data-dismiss="modal">cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="admin.js"></script>
+<script src="update.js"></script>
+</body>
+</html>
